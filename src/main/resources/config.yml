@@ -1,0 +1,29 @@
+room-manager-tag: hproom_manager
+rooms:
+  "1":
+    world: world
+    x: 0
+    y: 64
+    z: 0
+    yaw: 0
+    pitch: 0
+  "2":
+    world: world
+    x: 5
+    y: 64
+    z: 0
+    yaw: 0
+    pitch: 0
+messages:
+  request-created: "&aRecovery granted to &e%target%&a for &e%duration%&a."
+  request-missing-target: "&cYou must be looking at another player."
+  request-invalid-duration: "&cProvide a time like 30s, 5m, or 1h."
+  request-expired: "&cYour recovery request expired."
+  request-not-found: "&cYou do not have a recovery request."
+  request-mismatch: "&cYour recovery request does not match your current nickname or IGN."
+  room-none-available: "&cNo recovery rooms are currently available."
+  room-teleport: "&aYou have been sent to recovery room &e%room%&a."
+  room-updated: "&aRoom %room% is now %state%."
+  room-invalid: "&cUnknown room id."
+  room-usage: "&cUsage: /hproom <roomId> <open|close>"
+  room-no-permission: "&cYou do not have permission to manage rooms."
