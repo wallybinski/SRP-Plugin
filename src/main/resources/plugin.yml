@@ -1,0 +1,16 @@
+name: SRPRecovery
+main: com.srp.recovery.RecoveryPlugin
+version: 1.0.0
+api-version: '1.20'
+author: SRP
+commands:
+  recovery:
+    description: Request or use recovery room teleport.
+    usage: /recovery [time]
+  hproom:
+    description: Open or close a recovery room.
+    usage: /hproom <roomId> <open|close>
+permissions:
+  srprecovery.hproom:
+    description: Allows managing recovery rooms.
+    default: op
